@@ -10,7 +10,7 @@ function App() {
 
   return (
     <main className={`h-screen relative`} style={{ backgroundColor: color }}>
-      <nav className="bg-white w-full shadow p-4 fixed top-0 left-0">
+      <nav className="bg-white w-full shadow-lg p-4 fixed top-0 left-0">
         <h1
           className={`text-xl font-bold`}
           style={{ color: color === "#ffffff" ? "#000000" : color }}>
