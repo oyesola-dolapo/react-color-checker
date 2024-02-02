@@ -19,7 +19,7 @@ const ColorCard = ({ currentColor, updateColor }) => {
       </p>
       <form
         action=""
-        className={`shadow-sm w-full flex flex-col items-center gap-2`}
+        className={` w-full flex flex-col items-center gap-2`}
         onSubmit={submit}>
         <input
           type="text"
