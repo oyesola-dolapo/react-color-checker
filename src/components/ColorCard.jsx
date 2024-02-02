@@ -13,7 +13,7 @@ const ColorCard = ({ currentColor, updateColor }) => {
     updateColor(inputValue);
   };
   return (
-    <div className={`shadow bg-white py-6 px-2  w-96 rounded mx-6`}>
+    <div className={`shadow-lg bg-white py-6 px-2 w-96 rounded mx-6`}>
       <p className={`text-center mb-2 text-xl font-medium`}>
         Input color code/name
       </p>
@@ -39,7 +39,7 @@ const ColorCard = ({ currentColor, updateColor }) => {
         </h1>
         <button
           type="submit"
-          className="btn btn-primary w-max border-2 border-solid border-black p-2 text-md font-bold rounded mt-2">
+          className="btn btn-primary w-max bg-white shadow-lg p-2 px-4 border-2 border-solid border-black-100 text-md font-bold rounded mt-2">
           Submit
         </button>
       </form>

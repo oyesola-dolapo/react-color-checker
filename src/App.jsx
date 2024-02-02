@@ -9,8 +9,8 @@ function App() {
   };
 
   return (
-    <main className={`h-screen`} style={{ backgroundColor: color }}>
-      <nav className="bg-white shadow p-4">
+    <main className={`h-screen relative`} style={{ backgroundColor: color }}>
+      <nav className="bg-white w-full shadow p-4 fixed top-0 left-0">
         <h1
           className={`text-xl font-bold`}
           style={{ color: color === "#ffffff" ? "#000000" : color }}>
@@ -18,7 +18,7 @@ function App() {
         </h1>
       </nav>
 
-      <div className={`flex items-center justify-center pt-48`}>
+      <div className={`flex items-center justify-center h-full`}>
         <ColorCard currentColor={color} updateColor={updateColor} />
       </div>
     </main>
